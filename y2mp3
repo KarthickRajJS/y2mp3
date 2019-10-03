@@ -1,0 +1,8 @@
+#!/bin/bash
+echo ----------------YOUTUBE-2-MP3 Converter-------------- 
+echo Uses Python 3 and Pip3 packages -- MoviePy, Pytube
+echo If there is no python3 and pip dependencies installed, Install them first 
+echo Press [Ctrl + C] to Stop the Execution
+python3 extract_audio.py $1 $2
+echo Downloaded a mp4 video from youtube link $1  and converted it into $2 .mp3
+ 
